@@ -1,0 +1,22 @@
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    color: black; /* Ensure all text in the container is black */
+}
+
+.weather-card, .soil-health-card, .carbon-credits-card, .next-actions-card {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    color: black; /* Text color for these cards */
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .dashboard-container {
+        grid-template-columns: 1fr;
+    }
+}

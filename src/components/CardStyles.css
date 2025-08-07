@@ -1,0 +1,18 @@
+.card {
+    border: 1px solid #e2e8f0; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background */
+    padding: 16px; /* Padding inside the card */
+    margin: 8px; /* Margin around the card */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Title size */
+    margin-bottom: 12px; /* Space below the title */
+}
+
+.card-content {
+    font-size: 1rem; /* Content size */
+    line-height: 1.5; /* Line height for better readability */
+}

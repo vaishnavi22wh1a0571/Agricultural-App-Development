@@ -1,0 +1,23 @@
+.soil-health-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.soil-data {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.soil-info p {
+    flex-basis: 100%;
+    margin: 10px 0;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 600px) {
+    .soil-data {
+        flex-direction: column;
+    }
+}

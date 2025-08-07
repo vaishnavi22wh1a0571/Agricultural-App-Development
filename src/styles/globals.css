@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+.card {
+  @apply bg-white shadow-md rounded-lg p-6;
+}
+
+.card-title {
+  @apply text-xl font-semibold mb-4;
+}
+/* Global styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 600px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+/* For larger screens */
+@media (min-width: 1200px) {
+  body {
+      font-size: 18px;
+  }
+}
+
